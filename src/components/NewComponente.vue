@@ -1,9 +1,10 @@
 <template>
     <div>
         <h3>{{ valor }}</h3>
-        <div class="background: red">
+        <div style="background: a.color">
             <HelloWord></HelloWord>
         </div>
+        
 
     </div>
 </template>

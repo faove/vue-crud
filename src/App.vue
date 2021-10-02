@@ -1,15 +1,14 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
-    <NewComponente></NewComponente>
+    <HelloWord></HelloWord>
   </div>
 </template>
 
 <script>
 import NewComponente from './components/NewComponente.vue'
+import HelloWord from './components/HelloWord.vue'
 export default {
-  components: { NewComponente },
+  components: { NewComponente, HelloWord },
   name: 'app',
   data () {
     return {
