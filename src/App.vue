@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <CrudExample></CrudExample>
+    <PropiedadesVue></PropiedadesVue>
   </div>
 </template>
 
@@ -9,8 +9,9 @@ import NewComponente from './components/NewComponente.vue'
 import HelloWord from './components/HelloWord.vue'
 import NameClass from './components/NameClass.vue'
 import CrudExample from './components/CrudExample.vue'
+import PropiedadesVue from './components/PropiedadesVue.vue'
 export default {
-  components: { NewComponente, HelloWord, NameClass, CrudExample },
+  components: { NewComponente, HelloWord, NameClass, CrudExample, PropiedadesVue },
   name: 'app',
   data () {
     return {
