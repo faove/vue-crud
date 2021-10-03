@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    <HelloWord></HelloWord>
+    <CrudExample></CrudExample>
   </div>
 </template>
 
 <script>
 import NewComponente from './components/NewComponente.vue'
 import HelloWord from './components/HelloWord.vue'
+import NameClass from './components/NameClass.vue'
+import CrudExample from './components/CrudExample.vue'
 export default {
-  components: { NewComponente, HelloWord },
+  components: { NewComponente, HelloWord, NameClass, CrudExample },
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
     }
   }
 }
